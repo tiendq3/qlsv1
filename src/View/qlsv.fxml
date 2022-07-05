@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="404.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="23.0" layoutY="30.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="154.0" text="Màn hình chính" />
+            <Button layoutX="23.0" layoutY="104.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="154.0" text="Quản Lý Học Viên" />
+            <Button layoutX="23.0" layoutY="181.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="154.0" text="Quản Lý Khóa Học" />
+            <Button layoutX="23.0" layoutY="254.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="154.0" text="Quản Lý Lớp Học" />
+            <Button layoutX="23.0" layoutY="330.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="154.0" text="Thống kê" />
+         </children>
+      </Pane>
+      <Pane prefHeight="404.0" prefWidth="276.0" />
+   </children>
+</FlowPane>
