@@ -18,6 +18,14 @@
             <Button layoutX="23.0" layoutY="330.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="154.0" text="Thống kê" />
          </children>
       </Pane>
-      <Pane prefHeight="404.0" prefWidth="276.0" />
+      <Pane prefHeight="404.0" prefWidth="276.0">
+         <children>
+            <TableView layoutX="14.0" layoutY="57.0" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+         </children></Pane>
    </children>
 </FlowPane>
